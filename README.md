@@ -1,6 +1,7 @@
 # kumc-hbic
 Imaging Analysis Scripts from Hoglund Biomedical Imaging Center at the University of Kansas Medical Center
 
+rsfMRI-qc-paper branch:
 This work is a contribution to the FMRI Open QC project, "Demonstrating Quality Control (QC) Procedures in fMRI", organized by Paul A. Taylor, Jo Etzel, Daniel R. Glen and Richard C. Reynolds.
 
 The Project website here contains a brief description and links to associated Topic articles:
