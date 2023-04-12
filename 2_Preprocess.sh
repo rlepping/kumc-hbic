@@ -5,9 +5,9 @@
 foreach subj (104)
 
  # set data directories
-set top_dir = /home/lmartin2/R-Drive/Martin_L/QC_Methods_Paper/MR_Data/fmri-open-qc-rest
+set top_dir = QC_Methods_Paper/MR_Data/fmri-open-qc-rest
 set epi_dir = $top_dir/sub-{$subj}/ses-01/func
-set SSW_dir = /home/lmartin2/R-Drive/Martin_L/QC_Methods_Paper/MR_Data/scripts/SS_Warper         
+set SSW_dir = QC_Methods_Paper/MR_Data/scripts/SS_Warper         
 
 #3dcopy aparc.a2009s+aseg_REN_vent_2.5+tlrc  {$subj}.aparc.a2009s+aseg_REN_vent_2.5+tlrc 
 
@@ -53,7 +53,7 @@ set SSW_dir = /home/lmartin2/R-Drive/Martin_L/QC_Methods_Paper/MR_Data/scripts/S
  
 #tcsh -xef {$subj}_rs_script |& tee output.proc.{$subj}
 
-cd /home/lmartin2/R-Drive/Martin_L/QC_Methods_Paper/MR_Data/scripts 
+cd QC_Methods_Paper/MR_Data/scripts 
  end        
  
 
